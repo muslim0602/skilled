@@ -30,7 +30,7 @@ img{
 
 .container{
   width: 100%;
-  max-width: 1200px;
+  max-width: 1110px;
   padding-left: 50px;
   padding-right: 50px;
   margin-right: auto;
@@ -39,4 +39,244 @@ img{
 
 .main-content{
   flex-grow: 1;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 186px;
+}
+
+.site-header__title {
+  width: 110px;
+}
+
+.site-header__link {
+}
+.site-header__btn {
+  width: 167px;
+  height: 56px;
+  background-color: #13183F;
+  border-radius: 28px;
+  color: #fff;
+}
+
+
+
+
+.hero {
+  display: flex;
+  margin-bottom: 250px;
+
+}
+.site-hero-left {
+  margin-right: 240px;
+}
+.site-hero__heading {
+  width: 457px;
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 800;
+  margin-bottom: 29px;
+  font-size: 56px;
+  line-height: 71px;
+  color: #13183F;
+}
+.site-hero__text {
+  width: 445px;
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 40px;
+  line-height: 28px;
+  color: #83869a;
+}
+.site-hero__link {
+
+}
+
+.site-hero__btn {
+  border: 0;
+  width: 167px;
+  height: 63px;
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  border-radius: 32px;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  color: #fff;
+
+}
+
+.site-hero-right {
+}
+
+.site-hero__img--girl {
+  position: absolute;
+  width: 317px;
+  height: 560px;
+  left: 904px;
+  top: 167px;
+  z-index: 10;
+}
+
+.site-hero__img--color {
+  position: absolute;
+  width: 317px;
+  height: 1008px;
+  left: 1150px;
+  top: -185px;
+  z-index: 2;
+  background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+  border-radius: 158.5px;
+  transform: rotate(45deg);
+}
+
+.cours-time-info {
+  position: absolute;
+  padding: 20px 75px 20px 24px;
+  border-radius: 15px;
+  z-index: 20;
+  background-color: #fff;
+  box-shadow: 0px 34px 54px rgba(6, 22, 141, 0.158854);
+  left: 784px;
+top: 509px;
+}
+
+.cours-time-info-text {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #83869A;
+  margin: 0;
+
+}
+
+.cours-time-info-number {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 50px;
+  color: #13183F;
+  margin: 0;
+}
+
+.course-members {
+  position: absolute;
+  padding: 20px 57px 20px 24px;
+  z-index: 23;
+  background-color: #fff;
+  box-shadow: 0px 34px 54px rgba(6, 22, 141, 0.158854);
+  border-radius: 15px;
+  left: 1184px;
+  top: 270px;
+
+}
+.course-members-text {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #83869A;
+  margin: 0;
+}
+.course-members-count {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 50px;
+  color: #13183F;
+  margin: 0;
+}
+
+.site-footer{
+width: 100%;
+background-color: #13183f;;
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 0;
+}
+
+.site-footer__title{
+  color: #fff;
+}
+.footer-btn{
+  background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+  border-radius: 28px;
+}
+
+/* INDEX_FEATURES */
+.index-features__list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+}
+
+.index-features__item {
+  position: relative;
+  width: 320px;
+  height: 322px;
+  box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+  border-radius: 15px;
+  padding-top: 64px;
+  padding-left: 32px;
+  padding-bottom: 40px;
+  margin-bottom: 80px;
+  background-color: #fff;
+}
+
+.index-features__item:nth-child(1){
+  background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+  border-radius: 15px;
+  padding: 64px 32px 138px 32px;
+  color: #fff;
+
+
+}
+
+/* .index-features__item--icon {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+  top: -30px;
+} */
+.index-features__item--img {
+  position: absolute;
+  top: -30px;
+}
+.index-features__item--heading {
+  width: 286px;
+}
+.index-features__item--text{
+
+}
+.index-features__item--info {
+  position: absolute;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 28px;
+color: #f74780;
+
 }
